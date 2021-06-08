@@ -7,7 +7,7 @@ const Home = () => {
       <h1 className="lg:text-9xl md:text-7xl sm:text-5xl font-black mb-14">
         Welcome Here
       </h1>
-      <Link className="px-10 py-6 bg-yellow-400 rounded-full text-3xl hover:bg-yellow-300 transition duration-300 ease-in-out animate-bounce flex items-center">
+      <Link className="px-10 py-6 bg-yellow-400 rounded-full text-3xl hover:bg-yellow-300 transition duration-300 ease-in-out animate-bounce flex items-center" to="/"> 
         Order Now
         <svg
           class="w-6 h-6 ml-4"
